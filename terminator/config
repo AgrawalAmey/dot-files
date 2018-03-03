@@ -1,0 +1,58 @@
+[global_config]
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_font = SauceCodePro Nerd Font Semi-Bold 11
+  title_use_system_font = False
+[keybindings]
+  split_horiz = <Primary><Shift>Down
+  split_vert = <Primary><Shift>Right
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#0d1926"
+    background_darkness = 0.93
+    background_image = None
+    background_type = transparent
+    cursor_color = "#ffffff"
+    font = SauceCodePro Nerd Font Semi-Bold 15
+    foreground_color = "#ffc88b"
+    palette = "#073268:#ff0883:#83ff08:#ffc88b:#0883ff:#8308ff:#08ff83:#ff8d8b:#073268:#ff0883:#83ff08:#ff8308:#0883ff:#8308ff:#08ff83:#ff8d8b"
+    use_system_font = False
+  [[Ayu mirage]]
+    background_color = "#212733"
+    background_image = None
+    cursor_color = "#FFD580"
+    foreground_color = "#d9d7ce"
+    palette = "#212733:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#3d4752:#3e4b59:#ff3333:#bae67e:#ffd580:#5ccfe6:#d4bfff:#5ccfe6:#eeeeec"
+  [[Cobalt2]]
+    background_color = "#132738"
+    background_image = None
+    cursor_color = "#f0cc09"
+    foreground_color = "#ffffff"
+    palette = "#000000:#ff0000:#38de21:#ffe50a:#1460d2:#ff005d:#00bbbb:#bbbbbb:#555555:#f40e17:#3bd01d:#edc809:#5555ff:#ff55ff:#6ae3fa:#ffffff"
+  [[Dracula]]
+    background_color = "#1e1f29"
+    background_image = None
+    foreground_color = "#f8f8f2"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+  [[Grape]]
+    background_color = "#171423"
+    background_image = None
+    cursor_color = "#a288f7"
+    font = SauceCodePro Nerd Font Semi-Bold 15
+    foreground_color = "#9f9fa1"
+    palette = "#2d283f:#ed2261:#1fa91b:#8ddc20:#487df4:#8d35c9:#3bdeed:#9e9ea0:#59516a:#f0729a:#53aa5e:#b2dc87:#a9bcec:#ad81c2:#9de3eb:#a288f7"
+    use_system_font = False
+  [[Pandora]]
+    background_color = "#141e43"
+    background_image = None
+    cursor_color = "#43d58e"
+    foreground_color = "#e1e1e1"
+    palette = "#000000:#ff4242:#74af68:#ffad29:#338f86:#9414e6:#23d7d7:#e2e2e2:#3f5648:#ff3242:#74cd68:#ffb929:#23d7d7:#ff37ff:#00ede1:#ffffff"
